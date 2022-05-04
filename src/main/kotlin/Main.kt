@@ -1,10 +1,12 @@
+import kotlin.text.format
+
 fun main() {
 
     println(calculate())
 
 }
 
-fun calculate(amount: Double = 100.00, commission: Double = 0.075, minCommission: Double = 35.00): String {
+fun calculate(amount: Double = 1000.00, commission: Double = 0.075, minCommission: Double = 35.00): String {
 
     val finalCommission = if (amount * commission < minCommission) { minCommission
     } else { amount * commission }
