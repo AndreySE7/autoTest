@@ -1,3 +1,5 @@
+import kotlin.text.format
+
 fun main() {
 
     println(calculate())
