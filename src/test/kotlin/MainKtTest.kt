@@ -6,10 +6,8 @@ class MainKtTest {
 
     @Test
     fun calculate_test_commission() {
-        val amountFormatT = "1000,50"
-        val finalCommissionFormatT = "75,04"
-        val finalSumFormatT = "925,46"
-        val amountT = 1000.50
+
+        val amountT = 1000.00
         val commissionT = 0.075
         val minCommissionT = 35.00
 
@@ -19,15 +17,13 @@ class MainKtTest {
             minCommission = minCommissionT,
         )
 
-        assertEquals("При переводе: $amountFormatT \nКомиссия составит: $finalCommissionFormatT \nСумма к зачислению: $finalSumFormatT", result)
+        assertEquals("При переводе: 1000.0 \nКомиссия составит: 75.0 \nСумма к зачислению: 925.0", result)
 
     }
 
     @Test
     fun calculate_test_min_commission() {
-        val amountFormatT = "100,00"
-        val finalCommissionFormatT = "35,00"
-        val finalSumFormatT = "65,00"
+
         val amountT = 100.00
         val commissionT = 0.075
         val minCommissionT = 35.00
@@ -38,7 +34,7 @@ class MainKtTest {
             minCommission = minCommissionT,
         )
 
-        assertEquals("При переводе: $amountFormatT \nКомиссия составит: $finalCommissionFormatT \nСумма к зачислению: $finalSumFormatT", result)
+        assertEquals("При переводе: 100.0 \nКомиссия составит: 35.0 \nСумма к зачислению: 65.0", result)
 
     }
 
