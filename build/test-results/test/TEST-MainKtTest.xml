@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainKtTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-04T15:25:50" hostname="WIN-0IQMH8KKJJQ" time="0.023">
+  <properties/>
+  <testcase name="calculate_test" classname="MainKtTest" time="0.012"/>
+  <testcase name="calculate_test2" classname="MainKtTest" time="0.001"/>
+  <testcase name="main_test" classname="MainKtTest" time="0.009"/>
+  <system-out><![CDATA[При переводе: 100,00 
+Комиссия составит: 35,00 
+Сумма к зачислению: 65,00
+При переводе: 100,00 
+Комиссия составит: 35,00 
+Сумма к зачислению: 65,00
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
