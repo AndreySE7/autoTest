@@ -7,7 +7,7 @@ class MainKtTest {
     @Test
     fun calculate_test_commission() {
 
-        val amountT = 1000.00
+        val amountT = 2000.00
         val commissionT = 0.075
         val minCommissionT = 35.00
 
@@ -17,7 +17,7 @@ class MainKtTest {
             minCommission = minCommissionT,
         )
 
-        assertEquals("При переводе: 1000.0 \nКомиссия составит: 75.0 \nСумма к зачислению: 925.0", result)
+        assertEquals("При переводе: 2000.0 \nКомиссия составит: 150.0 \nСумма к зачислению: 1850.0", result)
 
     }
 
